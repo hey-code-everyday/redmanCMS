@@ -1,0 +1,147 @@
+.mobile-header-outer
+  width: 100%
+  height: 50px
+  display: flex
+  padding: 0 10px
+  box-shadow: 0 2px 7px rgba(0,0,0,0.2)
+  align-items: center
+  &.is-footer
+    left: 0
+    right: 0
+    bottom: 0
+    height: 80px
+    padding: 0 5px
+    z-index: 2
+    position: fixed
+    box-shadow: 0 -2px 7px rgba(0,0,0,0.2)
+
+.mobile-header
+  width: 100%
+  display: flex
+  font-size: 16px
+  line-height: 28px
+  a,
+  strong
+    color: inherit
+  .icon
+    box-sizing: content-box
+    font-size: 20px
+    padding: 2px
+  .control
+    position: relative
+  .input
+    height: 28px
+    border: none
+    font-size: 16px
+    line-height: 28px
+    background: rgba(0,0,0,0.2)
+    box-shadow: none
+  .delete
+    top: 6px
+    right: 6px
+    position: absolute
+  .button
+    text-align: center
+    border-radius: 2px
+    font-weight: bold
+    font-size: 18px
+    height: 50px
+    width: 100%
+    &.is-primary
+    &.is-outlined
+      background: transparent
+  .control.is-expanded
+    padding-right: 2px
+
+.mobile-header__title
+  font-size: 16px
+  white-space: nowrap
+
+.mobile-header__left,
+.mobile-header__right,
+.mobile-header__center
+  display: flex
+  align-items: center
+
+.mobile-header__left
+  margin-right: auto
+
+.mobile-header__center
+  margin: 0 auto
+  justify-self: center
+
+.mobile-header__right
+  margin-left: auto
+  &:empty
+    width: 28px
+
+.mobile-header__field
+  width: 100%
+  display: flex
+
+.is-footer
+  .mobile-header__field
+    .mobile-header__item
+      margin: 0 3px
+
+.mobile-header__item
+  flex: 1 1 0
+  height: 28px
+  margin: 0 5px
+  &:first-child
+    margin-left: 0 !important
+  &:last-child
+    margin-right: 0 !important
+
+.mobile-header__masthead
+  background: #fff
+  padding: 4px
+  border-radius: 3px
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2)
+  img
+    height: 20px
+
+.mobile-screen
+  width: 100vw
+  height: 100vh
+  display: flex
+  position: fixed
+  background: #fafafa
+  pointer-events: auto
+  flex-direction: column
+  .gus-list__title
+    font-size: 16px
+    margin: 10px
+    padding: 0
+    line-height: 1.3
+  .gus-list__items
+    margin-bottom: 20px
+    .delete
+      margin: 10px 10px 0 0
+  .gus-list__items li a:not(.delete)
+    padding: 0 10px
+    font-size: 16px
+    height: 40px
+    line-height: 40px
+    background: #fff
+    box-shadow: 0 0 0 1px #dfdfdf
+    white-space: nowrap
+
+.mobile-screen__header
+  z-index: 1
+  background: #f00
+  min-height: 50px
+
+.mobile-screen__footer
+  top: auto !important
+  z-index: 1
+  position: relative !important
+  min-height: 40px
+  background: #f00
+
+.mobile-screen__content
+  flex: 1
+  overflow-y: auto
+  -webkit-overflow-scrolling: touch
+
+.mobile-screen__content-inner

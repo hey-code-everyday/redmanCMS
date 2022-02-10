@@ -1,0 +1,227 @@
+{
+  "slug": "about",
+  "metaInfo": {
+    "title": "About Me",
+    "description": "In today’s challenging Real Estate market, your choice of Real Estate Professional does matter! For a greater probability of success you need a dedicated professional, one who can guide you through the process and be counted on to protect your investment! Get to know me, knowledgeable, results-oriented professional."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": true,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            ""
+          ],
+          "repeat": false,
+          "greyscale": false
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid",
+        "overlayAlpha": 85,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "Lorem <strong class=\"is-strong\">ipsum</strong> dolor <span class=\"is-soft\">sit amet.</span>",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3EABOUT%20SCOTT%20B%3C/p%3E",
+        "size": 1
+      },
+      "buttonList": [
+        {
+          "text": "My Button",
+          "type": "primary",
+          "action": "link",
+          "icon": "",
+          "href": "#",
+          "linkOut": false
+        }
+      ],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "69153aa5-0d51-4107-bee1-86b11413998f",
+      "order": 0,
+      "name": "strap-text",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#FECD51",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#FECD51",
+                "pos": 0
+              },
+              {
+                "color": "#000000",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "text": {
+          "html": "%3Cp%20class=%22ql-align-justify%22%3EIn%20today%E2%80%99s%20challenging%20Real%20Estate%20market,%20your%20choice%20of%20Real%20Estate%20Professional%20does%20matter!%20For%20a%20greater%20probability%20of%20success%20you%20need%20a%20dedicated%20professional,%20one%20who%20can%20guide%20you%20through%20the%20process%20and%20be%20counted%20on%20to%20protect%20your%20investment!%20Get%20to%20know%20me,%20knowledgeable,%20results-oriented%20professional.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EWhether%20you%20are%20purchasing,%20selling%20or%20wish%20to%20investigate%20the%20possibilities,%20I%20care%20about%20your%20needs%20and%20will%20take%20the%20time%20to%20provide%20personal%20attention%20and%20100%25%20client%20satisfaction.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EI%20promise%20to%20provide%20the%20most%20professional,%20ethical%20and%20informed%20real%20estate%20services%20in%20the%20Industry.%3C/p%3E%3Ch2%3E%3Cstrong%20class=%22ql-size-small%22%3EMy%20most%20important%20assets%20are%3C/strong%3E%3Cstrong%20class=%22ql-size-small%22%20style=%22color:%20rgb(255,%20206,%2067);%22%3E%20honesty%20%3C/strong%3E%3Cstrong%20class=%22ql-size-small%22%3Eand%20integrity,%20whereby%20my%20clients%20become%20my%20friends.%3C/strong%3E%3C/h2%3E",
+          "display": "block",
+          "className": ""
+        },
+        "textWidth": 0,
+        "title": {
+          "html": "%3Cp%3EABOUT%3C/p%3E",
+          "size": 1
+        },
+        "buttonList": [
+          {
+            "text": "GET IN TOUCH",
+            "type": "primary",
+            "action": "link",
+            "icon": "icon-envelope-open",
+            "href": "/contact-agent",
+            "linkOut": false
+          },
+          {
+            "text": "SEARCH LISTINGS",
+            "type": "secondary",
+            "action": "link",
+            "icon": "",
+            "href": "/search",
+            "linkOut": false
+          }
+        ],
+        "migrations": {
+          "0": true
+        }
+      }
+    },
+    {
+      "id": "3e2daa30-76b7-4ef5-a241-d5b54f556917",
+      "order": 1,
+      "name": "strap-latest-listings",
+      "config": {
+        "hidden": true,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "alternate",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid-custom",
+          "overlayAlpha": 85,
+          "overlayColor": "rgba(101, 101, 101, 0.2)",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#FECD51",
+                "pos": 0
+              },
+              {
+                "color": "#000000",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "Latest Listings",
+          "size": 2
+        },
+        "text": {
+          "html": "%3Cp%3E%3Cbr%3E%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "buttonList": [
+          {
+            "text": "My Button",
+            "type": "primary",
+            "action": "link",
+            "icon": "",
+            "href": "#",
+            "linkOut": false
+          }
+        ],
+        "useRealtorListings": false,
+        "centerSearch": false,
+        "numListings": 15,
+        "migrations": {
+          "0": true
+        }
+      }
+    }
+  ]
+}

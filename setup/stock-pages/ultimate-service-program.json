@@ -1,0 +1,201 @@
+{
+  "slug": "ultimate-service-program",
+  "metaInfo": {
+    "title": "Coldwell Banker Ultimate Service® Program",
+    "description": "This is a brand new page."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": false,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            "//assets.rmcloud.com/phoenix/hero-images/concept/closing-deal.jpg"
+          ],
+          "repeat": false,
+          "greyscale": false,
+          "transitionInterval": 4,
+          "transitionStyle": "fade"
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid-custom",
+        "overlayAlpha": 40,
+        "overlayColor": "rgba(34, 72, 118, 1)",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "%3Cp%3EColdwell%20Banker's%20exceptional%20custom%20service%3C/p%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3EULTIMATE%20SERVICE%C2%AE%20PROGRAM%3C/p%3E",
+        "size": 1
+      },
+      "buttonList": [],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "4b2f983a-770e-4e67-bcf2-69862f1097d4",
+      "order": 0,
+      "name": "strap-text",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "text": {
+          "html": "%3Ch2%20class=%22ql-align-center%22%3E%3Cstrong%3EGet%20Ultimate%20Service%C2%AE%20with%20Coldwell%20Banker%C2%AE%3C/strong%3E%3C/h2%3E%3Cp%20class=%22ql-align-justify%22%3E%3Cbr%3E%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EWe%20have%20developed%20a%20recipe%20for%20success%20that%20offers%20you%20an%20%3Cstrong%3Eexceptional%20customer%20service%20experience%3C/strong%3E.%20We%20nurture%20each%20ingredient%20and%20ensure%20you're%20provided%20with%20the%20best%20service%20when%20buying%20or%20selling%20a%20home.%20The%20result%20is%20a%20renowned%20%3Cstrong%3EUltimate%20Service%C2%AE%20Program%3C/strong%3E%20where%20your%20needs%20come%20first,%20every%20time.%20Home%20buyers%20and%20sellers%20recognize%20our%20service%20excellence%20and%20our%2098%25%20satisfaction%20rating*%20speaks%20for%20itself:%20we%20are%20the%20%3Cstrong%3EUltimate%20in%20Customer%20Satisfaction%3C/strong%3E!%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "textWidth": 0,
+        "title": {
+          "html": "%3Cp%3EUltimate%20Service%C2%AE%20Program%3C/p%3E",
+          "size": 1
+        },
+        "buttonList": [],
+        "migrations": {
+          "0": true
+        }
+      }
+    },
+    {
+      "id": "54ab61dd-06e3-4b8a-8f67-2d6682a2eb91",
+      "order": 1,
+      "name": "strap-html-contained",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "alternate",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3EOur%20Ultimate%20Service%C2%AE%20Program%3C/p%3E",
+          "size": 1
+        },
+        "html": {
+          "html": "%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//cdnassets.rmcloud.com/shared-images/stock-pages/coldwell-banker-pages/ultimate-service-communication.jpg%22%20alt=%22%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%3Cstrong%3E1.%20Two-Way%20Communication%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20%20We%20won't%20talk%20at%20you%20or%20force-feed%20you%20things%20you%20don't%20want.%20We%20believe%20in%20solid,%20meaningful%20communication,%20which%20means%20we%20listen%20to%20what%20matters%20most%20to%20you%20and%20your%20family.%20We%20keep%20your%20needs%20in%20mind%20when%20it%20comes%20to%20your%20home%20buying%20and%20home%20selling%20experience.%20Ask%20us%20any%20question,%20and%20if%20we%20don't%20have%20the%20answer%20right%20away%20we'll%20find%20it%20for%20you.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%20%20%0A%3C/div%3E%0A%0A%3Chr%3E%0A%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//cdnassets.rmcloud.com/shared-images/stock-pages/coldwell-banker-pages/ultimate-service-customization.jpg%22%20alt=%22%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%3Cstrong%3E2.%20Written%20Service%20Standards%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20%20Our%20Ultimate%20Service%C2%AE%20is%20all%20about%20customization.%20We%20sit%20down%20with%20you%20and%20develop%20a%20plan%20catered%20to%20your%20individual%20needs%20and%20time%20frame.%20We%20empower%20you%20to%20set%20your%20own%20terms%20and%20help%20us%20develop%20written%20commitments,%20which%20we%20will%20honour%20throughout%20the%20process.%20And%20if%20we%20don't,%20you%20can%20cancel%20your%20buyers%20or%20sellers%20agreement,%20hassle-free.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%20%20%0A%3C/div%3E%0A%0A%3Chr%3E%0A%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//cdnassets.rmcloud.com/shared-images/stock-pages/coldwell-banker-pages/ultimate-service-feedback.jpg%22%20alt=%22%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%3Cstrong%3E3.%20Your%20Feedback:%20How%20Did%20We%20Do?%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20%20%20When%20your%20home%20buying%20or%20selling%20experience%20is%20complete,%20please%20give%20us%20your%20honest%20feedback%20on%20your%20overall%20experience.%20Through%20our%20Customer%20Satisfaction%20Surveys,%20we%20monitor%20our%20performance%20to%20see%20how%20our%20recipe%20is%20working.%20We're%20constantly%20improving%20the%20quality%20of%20our%20service%20so%20your%20next%20experience%20is%20even%20better.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%20%0A%3C/div%3E%0A%0A%3Chr%3E%0A%3Cp%3EWhen%20it%20comes%20to%20your%20real%20estate%20needs,%20you%20deserve%20true,%20honest,%20and%20straightforward%20service%20based%20on%20more%20than%20words.%20%3Cstrong%3EThere's%20a%20reason%20Coldwell%20Banker%C2%AE%20agents%20are%20leaders%20in%20our%20field:%20let%20us%20show%20you%20why.%3C/strong%3E%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "buttonList": [
+          {
+            "text": "Contact Us",
+            "type": "primary",
+            "action": "link",
+            "icon": "icon-envelope-open",
+            "href": "/contact",
+            "linkOut": false
+          }
+        ]
+      }
+    }
+  ]
+}

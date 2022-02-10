@@ -1,0 +1,158 @@
+{
+  "slug": "contact",
+  "metaInfo": {
+    "title": "Get In Touch",
+    "description": "Contact me to buy or sell in {{ website.config.office.city }} and surrounding areas. "
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": true,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            ""
+          ],
+          "repeat": false,
+          "greyscale": false
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid",
+        "overlayAlpha": 85,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "Lorem%20%3Cstrong%20class=%22is-strong%22%3Eipsum%3C/strong%3E%20dolor%20%3Cspan%20class=%22is-soft%22%3Esit%20amet.%3C/span%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "Hero Basic",
+        "size": 1
+      },
+      "buttonList": [
+        {
+          "text": "My Button",
+          "type": "primary",
+          "action": "link",
+          "icon": "",
+          "href": "#",
+          "linkOut": false
+        }
+      ],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "search"
+    }
+  },
+  "straps": [
+    {
+      "id": "fd4719e3-ffea-4b30-a9a2-a910ac5077fb",
+      "order": 0,
+      "name": "strap-form-aside",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#FECD51",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#FECD51",
+                "pos": 0
+              },
+              {
+                "color": "#000000",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3EGET%20IN%20TOUCH%3C/p%3E",
+          "size": 2
+        },
+        "text": {
+          "html": "{{website.config.office.officeName}}
+          {{website.config.office.address}}, {{website.config.office.city}}, {{website.config.office.provinceCode}} {{website.config.office.postalCode}}",
+          "display": "block",
+          "className": ""
+        },
+        "linkList": [
+          {
+            "text": "{{ filters.phoneNumber(office.phone) }}",
+            "type": "link",
+            "icon": "icon-telephone",
+            "href": "tel:{{website.config.office.phone}}",
+            "linkOut": false
+          }
+        ],
+        "redform": {
+          "formID": "stock/contact-agent"
+        },
+        "migrations": {
+          "0": true
+        },
+        "image": {
+          "height": 0,
+          "width": 160,
+          "filter": "none",
+          "imageUrl": "",
+          "href": "",
+          "linkOut": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "footer-basic",
+  "nav": [],
+  "config": {
+    "style": {
+      "theme": "default"
+    }
+  },
+  "state": {
+    "linkList1": [],
+    "linkList2": [
+      {
+        "text": "{{ office.phone }}",
+        "type": "link",
+        "icon": "icon-telephone",
+        "href": "tel:{{ office.phone }}",
+        "linkOut": false
+      },
+      {
+        "text": "{{ office.email }}",
+        "type": "link",
+        "icon": "icon-envelope-open",
+        "href": "mailto:{{ office.email }}",
+        "linkOut": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+.hero-strap
+  z-index: 11
+
+  .ql-bubble .ql-editor a
+    text-decoration: inherit
+
+.hero-level
+  position: relative
+  display: inline-flex
+
+  .level-item
+    margin: 0 0.75rem
+
+.site-logo
+  position: relative
+
+.hero-level-sep
+  position: relative
+  height: 100%
+  width: 2px
+
+  > span
+    position: absolute
+    content: ''
+    display: block
+    height: 150%
+    top: 50%
+    transform: translateY(-50%)
+    width: 2px
+
+.hero-field-group
+  position: relative
+
+.panel-autocomplete
+  position: absolute
+  top: 45px + 16px
+  left: 0
+  width: 100%
+
+.agent-spotlight
+  position: relative
+  overflow: hidden
+  background-color: #fff
+  height: 100px
+  width: 100px
+  border-radius: 50%
+
+  .editable-image
+    position: absolute !important
+    display: flex !important
+
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    justify-content: center
+    align-items: center
+
+    &:after,
+    &:before
+      border-radius: 50%
+
+  .image
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+.hero-foot
+  .hero-field-group
+    .strap-field
+      &.is-hidden-mobile
+        margin-bottom: 0 !important
+
+      +mobile
+        .control
+          margin-bottom: 1em
+          &:last-child
+            margin-bottom: 0

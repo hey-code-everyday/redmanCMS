@@ -1,0 +1,31 @@
+@import './variables'
+
+.file-upload
+  .file-container
+    border-color: $wsBorder !important
+  .empty-file-container
+    border-color: $wsBorder !important
+  .image-file-container
+    color: $wsDarkGrey !important
+  .file-item.is-selected
+    .file-item__name
+      color: $wsRed
+  .svg-icon
+    fill: $wsLightGrey !important
+
+.file-upload__overlay.is-error
+  .file-upload__overlay-inner.box
+    background-color: lighten(#FFBB45, 32)
+    box-shadow: 0 0 0 1px darken(#FFBB45, 10) inset
+    color: darken(#FFBB45, 30)
+    a
+      color: darken(#FFBB45, 30)
+    blockquote
+      border-left: solid 2px darken(#FFBB45, 30)
+      opacity: 0.6
+    .button.is-danger
+      color: #fff
+      background-color: #FFBB45
+      border: none
+      font-weight: bold
+      box-shadow: 0 0 0 1px darken(#FFBB45, 10) inset

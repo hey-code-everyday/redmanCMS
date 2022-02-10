@@ -1,0 +1,168 @@
+{
+  "slug": "index",
+  "metaInfo": {
+    "title": "My Page",
+    "description": "This is a brand new page."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": false,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            ""
+          ],
+          "repeat": false,
+          "greyscale": false
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid",
+        "overlayAlpha": 85,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "<p>Lorem ipsum dolor sit amet.</p>",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "<p>Basic Hero Strap</p>",
+        "size": 1
+      },
+      "footerComponent": "search",
+      "searchBar": {
+        "placeholder": "Search for stuff",
+        "background": "dark"
+      },
+      "buttonList": [
+        {
+          "text": "My Button",
+          "type": "primary",
+          "action": "link",
+          "icon": "",
+          "href": "#",
+          "linkOut": false
+        }
+      ]
+    }
+  },
+  "straps": [
+    {
+      "id": "dc1db7a2-4113-48a3-82e2-4c1c41301869",
+      "order": 0,
+      "name": "strap-about-image-aside",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "left",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#D82823",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#D82823",
+                "pos": 0
+              },
+              {
+                "color": "#D82823",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "About Image Aside",
+          "size": 1
+        },
+        "text": {
+          "html": "Lorem <strong class=\"is-strong\">ipsum</strong> dolor <span class=\"is-soft\">sit amet.</span>",
+          "display": "block",
+          "className": ""
+        },
+        "image": {
+          "height": 0,
+          "width": 0,
+          "filter": "none",
+          "imageUrl": "//via.placeholder.com/512x512",
+          "href": "",
+          "linkOut": false
+        },
+        "buttonList": [
+          {
+            "text": "My Button",
+            "type": "primary",
+            "action": "link",
+            "icon": "",
+            "href": "#",
+            "linkOut": false
+          }
+        ],
+        "linkList": [
+          {
+            "text": "{{ office.email }}",
+            "type": "link",
+            "icon": "icon-envelope-open",
+            "href": "#",
+            "linkOut": false
+          },
+          {
+            "text": "{{ office.phone }}",
+            "type": "link",
+            "icon": "icon-telephone",
+            "href": "#",
+            "linkOut": false
+          }
+        ]
+      }
+    }
+  ]
+}

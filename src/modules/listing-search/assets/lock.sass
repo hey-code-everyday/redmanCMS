@@ -1,0 +1,120 @@
+.auth0-lock.auth0-lock
+  font-family: 'Roboto', Helvetica, Arial, sans-serif
+  font-size: 16px
+  // color: $wsText
+
+  .auth0-lock-widget
+    box-shadow: 0 5px 50px rgba(#000, 0.4) !important
+
+  .auth0-lock-overlay
+    // background: rgba($wsDarkGrey, 0.5) !important
+
+  .auth0-lock-header
+    position: relative
+    height: auto
+    box-sizing: border-box
+    padding: 20px
+
+  .auth0-lock-header-bg
+    // background-color: $wsGrey !important
+    opacity: 1 !important
+    height: 100%
+    width: 100%
+
+  .auth0-lock-header-bg-solid
+    display: none !important
+
+  .auth0-lock-header-bg-blur
+    display: none !important
+
+  .auth0-lock-name
+    // color: #fff !important
+
+    &:before
+      content: ''
+      display: block
+      font-family: 'Linearicons'
+      font-size: 48px
+      line-height: 1.4
+      color: inherit
+      // color: #fff !important
+
+  .auth0-lock-close-button
+    display: none
+
+  .auth0-lock-tabs-container
+    height: 44px
+
+  .auth0-lock-tabs
+    letter-spacing: normal
+    font-size: 14px
+    // box-shadow: 0 1px 0 0 rgba($wsTextLight, 0.4) !important
+
+    li
+      a
+        // color: $wsTextLight
+      &.auth0-lock-tabs-current
+        // box-shadow: 0 1px 0 0 $wsRed
+        a
+          // color: $wsText
+
+  .auth0-lock-input-wrap
+    border-radius: 0
+    // background-color: #fff !important
+    // border-color: rgba($wsTextLight, 0.4)
+    transition: border-color 150ms ease-in-out
+
+    &.auth0-lock-focused
+      // border-color: $wsRed
+
+    &.auth0-lock-input-wrap-with-icon
+      padding-left: 0
+      input
+        padding-right: 40px
+
+    .auth0-lock-icon.auth0-lock-icon-box,
+    .auth0-lock-custom-icon.auth0-lock-icon-box
+      left: auto
+      right: 14px
+      z-index: 1
+      path
+        // fill: $wsRed
+
+  .auth0-lock-input-block
+    margin-bottom: 15px
+
+    &:before
+      display: block
+      font-size: 14px
+      // color: $wsTextLight
+
+  .auth0-lock-input-email
+    &:before
+      content: 'Email'
+
+  .auth0-lock-input-show-password
+    &:before
+      content: 'Password'
+
+  .auth0-lock-submit
+    text-transform: none
+    font-size: 16px
+    letter-spacing: normal
+    // background-image: linear-gradient(to right, $wsRed, $wsOrange)
+
+    span
+      margin-left: 5px
+
+    &:hover:not([disabled])
+      span
+        transform: scale(1)
+
+  .auth0-global-message
+    text-transform: none
+    font-size: 14px
+
+    &.auth0-global-message-error
+      // background-color: $wsOrange
+
+.auth0-lock-header-logo
+  display: none !important

@@ -1,0 +1,74 @@
+{
+  "filters": {
+    "low_price": "400",
+    "high_price": "1000"
+  },
+
+  "totalSearchResults": "150",
+
+  "sort": "list_date_des",
+
+  "geo": {
+    "bbox": [
+      -113.551449325,
+      53.5588931741,
+      -113.530896541,
+      53.5703197598
+    ],
+    "centre_lat": -113.541235,
+    "centre_lon": 53.564579,
+    "distance": "15.41937875193557",
+    "locationTitle": "Inglewood, Edmonton, AB",
+    "type": "whosonfirst",
+    "whosonfirst.id": "85864901",
+    "geometry": {
+      "type": "MultiPolygon",
+      "coordinates": [[
+        [[-113.62415069667817, 53.6376627052997], [-113.62792671643722, 53.64943351695871]]
+      ]]
+    }
+  },
+
+  "page": 0,
+
+  "map": {
+    "positionLoadState": 0,
+    "userRequestedPosition": null,
+    "realPosition": null,
+    "polygon": null,
+    "markers": [
+      {"doc_count": 128, "key": "c3x2b", "point": {"lat": 53.5, "lon": -113.5}}
+    ]
+  },
+
+  "faves": [],
+
+  "config": {
+    "rootUrl": "/search",
+    "defaultSort": "list_date_des",
+    "pointSearchRadius": 30,
+    "defaultH1": "Edmonton, AB",
+
+    "map": {
+      "defaultPosition": {
+        "centerLat": 53.5555501,
+        "centerLon": -113.6340494,
+        "zoom": 11
+      },
+      "zoomToDoSearch": 15,
+      "zoomToEnhanceClusters": 13,
+      "maximumMapResults": 200
+    },
+
+    "styles": {
+      "backgroundColor": "white",
+      "textColor": "#131313",
+      "boxShadow": "5px 5px 10px #888",
+      "primaryColor": "green",
+      "primaryTextColor": "white",
+      "lightTextColor": "#666",
+      "titleFontFamily": "\"Crete Round\", Georgia, \"Times New Roman\", serif",
+      "textFontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import './variables'
+
+.app-control
+  .app-input,
+  .app-button,
+  .app-select select
+    border-radius: 0 !important
+    box-shadow: none
+    border-color: rgba($wsTextLight, 0.6)
+    font-family: 'Roboto', 'Lucida Grande', 'Segoe UI', Helvetica, Arial, sans-serif !important
+    transition: border-color 150ms ease-in-out
+
+    &:hover
+      border-color: rgba($wsTextLight, 1)
+
+    &:focus
+      border-color: $wsRed
+
+    &::placeholder
+      color: $wsTextLight
+
+  .app-select,
+  .app-select select
+    width: 100%
+
+  .app-select
+    &:after
+      border-color: $wsIcon
+
+    &:hover
+      &:after
+        border-color: $wsTextLight
+
+  .app-checkbox
+    vertical-align: top
+    user-select: none
+
+    label
+      display: inline-block
+      cursor: pointer
+      width: 16px
+      height: 16px
+      border: solid 1px $wsBorder
+      margin: 0 4px 0 0
+      transform: translateY(2px)
+
+    &:hover
+      label
+        border-color: rgba($wsTextLight, 0.6)
+
+    input
+      visibility: hidden
+      position: absolute
+
+      &:checked
+        ~ label
+          border-color: $wsRed
+          background-color: $wsRed
+
+  .app-button
+    &:active,
+    &:focus
+      box-shadow: none
+
+
+

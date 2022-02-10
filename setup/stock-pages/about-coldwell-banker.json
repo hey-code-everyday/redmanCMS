@@ -1,0 +1,205 @@
+{
+  "slug": "about-coldwell-banker",
+  "metaInfo": {
+    "title": "About Coldwell Banker",
+    "description": "Coldwell Banker is one of the oldest and most well-established residential real estate brands in North America."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": false,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            "//assets.rmcloud.com/phoenix/hero-images/homes/interior/white-living-room.jpg"
+          ],
+          "repeat": false,
+          "greyscale": false,
+          "transitionInterval": 4,
+          "transitionStyle": "slide"
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid-custom",
+        "overlayAlpha": 25,
+        "overlayColor": "rgba(34, 72, 118, 1)",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "%3Cp%3E%3Cstrong%3EFulfilling%20the%20Dream%20of%20Home%20Since%201906%3C/strong%3E%3C/p%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3EABOUT%20COLDWELL%20BANKER%3C/p%3E",
+        "size": 1
+      },
+      "buttonList": [],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "8b541f2a-c049-4fac-b148-bc6043ea102d",
+      "order": 0,
+      "name": "strap-image",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3EOUR%20HISTORY%3C/p%3E",
+          "size": 1
+        },
+        "text": {
+          "html": "%3Cp%20class=%22ql-align-justify%22%3EColdwell%20Banker%20is%20one%20of%20the%20oldest%20and%20most%20well-established%20residential%20real%20estate%20brands%20in%20North%20America,%20well-know%20in%20the%20industry%20for%20being%20one%20of%20the%20most%20innovative.%20Created%20by%20Colbert%20Coldwell%20in%201906,%20Coldwell%20Banker's%20foundational%20philosophy%20has%20always%20been%20based%20on%20professionalism%20and%20superior%20customer%20service.%20With%20more%20than%2082,000%20agents%20and%203,100%20offices%20in%2051%20countries,%20Coldwell%20Banker%20is%20recognized%20world-wide%20as%20one%20of%20the%20top%20real%20estate%20brands.%20As%20Coldwell%20Banker%20REALTORS%C2%AE,%20our%20knowledge%20and%20hands-on%20experience%20in%20the%20market%20is%20supported%20by%20second-to-none%20training%20and%20marketing%20strategies%20with%20one%20goal:%20to%20help%20you%20make%20the%20most%20of%20your%20real%20estate%20experience.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3E%3Cstrong%20style=%22color:%20rgb(36,%20100,%20174);%22%3EWhether%20buying%20or%20selling,%20when%20you%20choose%20to%20work%20with%20Coldwell%20Banker%20REALTORS%C2%AE%20like%20us%20you%20are%20setting%20yourself%20up%20for%20success%20in%20the%20real%20estate%20market.%20%3C/strong%3E%3Ca%20href=%22/contact%22%20target=%22_blank%22%20style=%22color:%20rgb(36,%20100,%20174);%22%3E%3Cstrong%3EContact%20us%20today%3C/strong%3E%3C/a%3E%3Cstrong%20style=%22color:%20rgb(36,%20100,%20174);%22%3E%20to%20learn%20more%20about%20how%20Coldwell%20Banker%20can%20work%20for%20you!%3C/strong%3E%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "image": {
+          "height": 100,
+          "width": 0,
+          "filter": "none",
+          "imageUrl": "//assets.rmcloud.com/shared-images/stock-pages/why-brokerage/coldwell-banker-logo.png",
+          "href": "",
+          "linkOut": false
+        },
+        "buttonList": []
+      }
+    },
+    {
+      "id": "42171993-69db-45c1-b03c-62cf8e345e9f",
+      "order": 1,
+      "name": "strap-html-contained",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "alternate",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3EWHY%20CHOOSE%20COLDWELL%20BANKER?%3C/p%3E",
+          "size": 1
+        },
+        "html": {
+          "html": "%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%20is-128x128%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//assets.rmcloud.com/phoenix/icons/icon-handshake.svg?2%22%20alt=%22Handshake%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%3Cstrong%3EUltimate%20Service%20Program&reg;%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20Everyone%20talks%20about%20customer%20service%20in%20the%20real%20estate%20industry,%20but%20service%20shouldn't%20just%20be%20talk.%20At%20Coldwell%20Banker%20we%20understand%20you%20want%20a%20commitment%20to%20action,%20and%20we%20put%20you%20in%20control%20with%20our%20Ultimate%20Service%C2%AE%20system.%20We%20want%20to%20know%20what's%20most%20important%20to%20you,%20and%20together%20we%20develop%20a%20customized%20service%20plan%20with%20your%20needs%20in%20mind.%20Get%20service%20on%20your%20terms.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%20%20%0A%3C/div%3E%0A%0A%3Chr%3E%0A%0A%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%20is-128x128%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//assets.rmcloud.com/phoenix/icons/icon-target.svg%22%20alt=%22Target%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%0A%20%20%20%20%20%20%3Cstrong%3EMarketing%20Masters%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20We%20take%20a%20multi-screen,%20multi-media%20approach%20to%20our%20advertising%20strategy%20so%20we%20can%20reach%20the%20largest%20possible%20pool%20of%20qualified%20home%20buyers,%20no%20matter%20where%20their%20eyes%20are.%20Whether%20they're%20watching%20TV,%20listening%20to%20the%20radio,%20surfing%20the%20web,%20or%20using%20their%20smartphone,%20Coldwell%20Banker%20is%20there.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%0A%3C/div%3E%0A%0A%3Chr%3E%0A%0A%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%20is-128x128%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//assets.rmcloud.com/phoenix/icons/icon-community.svg%22%20alt=%22Agents%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%0A%20%20%20%20%20%20%3Cstrong%3EModern%20Agents%20in%20a%20Modern%20World%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20Coldwell%20Banker%20has%20been%20at%20the%20forefront%20of%20new%20technology%20throughout%20the%20years:%20we%20were%20the%20first%20full-service%20real%20estate%20brand%20to%20launch%20a%20national%20website,%20the%20first%20to%20stream%20listing%20videos,%20the%20first%20to%20fully%20embrace%20social%20media,%20and%20the%20first%20to%20create%20a%20mobile-friendly%20website%20and%20app.%20We%20have%20been%20named%20Real%20Estate%20Innovator%20of%20the%20Year%20twice,%20and%20are%20known%20for%20our%20industry-leading%20technology.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%0A%3C/div%3E%0A%0A%3Chr%3E%0A%0A%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%20is-128x128%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//assets.rmcloud.com/phoenix/icons/icon-champion.svg%22%20alt=%22Winner%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%0A%20%20%20%20%20%20%3Cstrong%3ESerious%20About%20Success%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20At%20Coldwell%20Banker,%20we%20understand%20the%20real%20estate%20industry%20is%20constantly%20changing,%20and%20it's%20important%20we%20keep%20up%20with%20it.%20Coldwell%20Banker%20agents%20are%20supported%20with%20leading%20education%20programs%20to%20ensure%20our%20skills%20and%20market-savvy%20stay%20in%20tip-top%20shape,%20no%20matter%20where%20the%20market%20goes.%20Our%20ongoing%20training%20program%20translates%20into%20superior%20knowledge%20you%20can%20count%20on%20during%20your%20real%20estate%20transaction.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%0A%3C/div%3E%0A%0A%3Chr%3E%0A%0A%3Cdiv%20class=%22columns%20has-text-left%22%3E%0A%20%20%20%20%3Cdiv%20class=%22column%20is-3%22%3E%0A%20%20%20%20%3Cfigure%20class=%22image%20is-128x128%22%20style=%22margin:0%20auto;%20display:block;%22%3E%0A%20%20%20%20%20%20%3Cimg%20src=%22//assets.rmcloud.com/phoenix/icons/icon-globe.svg%22%20alt=%22Globe%22%3E%0A%20%20%20%20%3C/figure%3E%0A%20%20%3C/div%3E%0A%20%20%3Cdiv%20class=%22column%22%3E%0A%20%20%20%20%3Cp%3E%0A%20%20%20%20%20%20%3Cstrong%3EGlobal%20Network%3C/strong%3E%0A%20%20%20%20%20%20%3Cbr%3E%0A%20%20%20%20%20%20Coldwell%20Banker%20agents%20understand%20the%20local%20real%20estate%20conditions%20and%20the%20factors%20that%20affect%20it%20better%20than%20any%20other%20agents.%20We%20are%20also%20connected%20to%20the%20wider%20Coldwell%20Banker%20network%20in%20over%2050%20countires%20around%20the%20world,%20which%20we%20use%20to%20target%20better%20qualified%20buyers%20no%20matter%20where%20they're%20coming%20from.%20And%20if%20you're%20moving%20away,%20you%20can%20have%20confidence%20that%20a%20Coldwell%20Banker%20professional%20will%20be%20there,%20representing%20you%20with%20the%20same%20superior%20service%20you'd%20receive%20here.%0A%20%20%20%20%3C/p%3E%0A%20%20%3C/div%3E%0A%3C/div%3E%0A%0A%0A",
+          "display": "block",
+          "className": ""
+        },
+        "buttonList": [
+          {
+            "text": "Contact Us",
+            "type": "primary",
+            "action": "link",
+            "icon": "icon-envelope-open",
+            "href": "/contact",
+            "linkOut": false
+          }
+        ]
+      }
+    }
+  ]
+}

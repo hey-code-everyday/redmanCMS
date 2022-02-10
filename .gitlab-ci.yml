@@ -1,0 +1,46 @@
+cache:
+  key: "$CI_BUILD_REF_NAME"
+  paths:
+  - node_modules/
+deploy:
+  type: build
+  before_script:
+    - apt-get update
+    - apt-get -qq -y install wget awscli #install wget
+    - wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.38.0/install.sh | bash #install nvm
+    - export NVM_DIR="$HOME/.nvm" && . "$NVM_DIR/nvm.sh" --no-use #load nvm
+    - echo _auth='"bXJvYmVydG86MjgxQ2FsbGluZ3dvb2RwbGFjZQ=="' >> ~/.npmrc
+    - echo "email=robertom@redmantech.com" >> ~/.npmrc
+    - echo "always-auth=true" >> ~/.npmrc
+    - echo "registry=http://npm.rmcloud.com:8123/" >> ~/.npmrc
+    - echo "progress=true" >> ~/.npmrc
+    - export PATH=~/.local/bin:$PATH
+    - eval "[ -f .nvmrc ] && nvm install || nvm install use" #install node
+    - npm -v
+    - node -v
+  script:
+  - nvm use
+  - mkdir ~/.aws/
+  - touch ~/.aws/credentials
+  - printf "[eb-cli]\naws_access_key_id = %s\naws_secret_access_key = %s\n" "$AWS_ACCESS_KEY_ID" "$AWS_SECRET_ACCESS_KEY" >> ~/.aws/credentials
+  - touch ~/.aws/config
+  - printf "[profile default]\nregion=ca-central-1\noutput=json" >> ~/.aws/config
+  - source ~/.bashrc
+  - aws s3  --version
+  - rm -rf .git
+  - npm config set registry http://npm.rmcloud.com:8123/
+  - npm install --registry=http://npm.rmcloud.com:8123/
+  - npm run build-server
+  - npm publish
+  - npm run build
+  - aws configure set preview.cloudfront true
+  - aws s3 sync --acl public-read dist s3://vue-components/page-builder/
+  - aws --version
+  - aws configure set preview.cloudfront true
+  - rm -rf ~/.aws/
+  - rm -rf .npmrc
+  - rm -rf build
+  only:
+    - production
+    - staging
+    - dev

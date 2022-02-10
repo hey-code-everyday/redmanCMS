@@ -1,0 +1,148 @@
+{
+  "slug": "selling-property",
+  "metaInfo": {
+    "title": "Moving Away",
+    "description": "Looking to relocate to a new city or even country? I can help!"
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": false,
+      "outerClasses": "short-hero",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            "//assets.rmcloud.com/phoenix/hero-images/Misc/moving-boxes.jpg"
+          ],
+          "repeat": false,
+          "greyscale": true
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid-custom",
+        "overlayAlpha": 0,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "%3Cp%3E%3Cbr%3E%3C/p%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3E%3Cbr%3E%3C/p%3E",
+        "size": 1
+      },
+      "buttonList": [],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "8b6c37cb-13ec-4d30-b370-f4d4e5df85fb",
+      "order": 0,
+      "name": "strap-form-aside",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid-custom",
+          "overlayAlpha": 0,
+          "overlayColor": "#FECD51",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#FECD51",
+                "pos": 0
+              },
+              {
+                "color": "#000000",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3EMoving%20Elsewhere%3C/p%3E",
+          "size": 2
+        },
+        "text": {
+          "html": "%3Cp%20class=%22ql-align-justify%22%3E%3Cstrong%20style=%22color:%20rgb(0,%200,%200);%22%3ELooking%20to%20relocate%20to%20a%20new%20city,%20town%20or%20even%20country?%3C/strong%3E%3Cstrong%20style=%22color:%20rgb(255,%20206,%2067);%22%3E%20I%20can%20help!%3C/strong%3E%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EThrough%20my%20affiliation%20with%20many%20real%20estate%20organizations%20and%20networks,%20I%20can%20help%20coordinate%20your%20move%20with%20a%20top%20Real%20Estate%20Professional%20no%20matter%20what%20part%20of%20the%20world%20you%20plan%20to%20move%20to.%20At%20the%20same%20time,%20I%20can%20work%20on%20pricing%20and%20getting%20your%20property%20ready%20for%20sale%20in%20the%20area.%3C/p%3E%3Cp%3E%3Cbr%3E%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "linkList": [
+          {
+            "text": "{{ filters.phoneNumber(office.phone) }}",
+            "type": "link",
+            "icon": "icon-telephone",
+            "href": "tel:{{ website.config.office.phone }}",
+            "linkOut": false
+          }
+        ],
+        "redform": {
+          "formID": "b47c2951-88b6-4336-a0a4-fe5617b839e4"
+        },
+        "migrations": {
+          "0": true
+        },
+        "image": {
+          "height": 0,
+          "width": 0,
+          "filter": "none",
+          "imageUrl": "",
+          "href": "",
+          "linkOut": false
+        }
+      }
+    }
+  ]
+}

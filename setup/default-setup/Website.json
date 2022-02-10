@@ -1,0 +1,145 @@
+{
+  "config": {
+    "features": {},
+    "setup": {
+      "agentID": "eheineel",
+      "brokerageID": "E078900",
+      "blogUrl": "http://blog.yourtruhome.com/",
+      "bodyClasses": "",
+      "scripts": [],
+      "styles": [],
+      "javascript": "",
+      "css": ""
+    },
+    "display": {
+      "siteName": "My Redman Site",
+      "textTense": "singular",
+      "logoUrl": "http://rmostatic-test.s3.amazonaws.com/0091/0713/redman_dark.png"
+    },
+    "office": {
+      "email": "sales@redmantech.ca",
+      "phone": "7804256273",
+      "cellPhone": "",
+      "officePhone": "",
+      "fax": "",
+      "officeName": "Redman Tech",
+      "address": "10172 – 108 Street NW",
+      "city": "Edmonton",
+      "province": "Alberta",
+      "provinceCode": "AB",
+      "postalCode": "T5J 1L3"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/LoveRedmanTech",
+      "flickr": "",
+      "foursquare": "",
+      "googleplus": "",
+      "instagram": "",
+      "linkedin": "",
+      "pinterest": "",
+      "twitter": "https://twitter.com/redmantech",
+      "youtube": "",
+      "rss": ""
+    }
+  },
+  "integrations": {
+    "analytics": {
+      "googleTagManager": {
+        "trackingID": ""
+      },
+      "googleAnalytics": {
+        "trackingID": ""
+      },
+      "googleSiteVerification": {
+        "trackingID": ""
+      },
+      "facebookPixel": {
+        "trackingID": ""
+      },
+      "bingWebmasterTools": {
+        "trackingID": ""
+      },
+      "googleAdWordsRemarketing": {
+        "trackingID": ""
+      },
+      "autoCompletionKey": {
+        "trackingID": ""
+      }
+    }
+  },
+  "theme": {
+    "baseTemplate": "default",
+    "dark": false,
+    "fonts": {
+      "body": {
+        "family": "Source Sans Pro",
+        "weights": "300,400,600",
+        "weight": "400"
+      },
+      "title": {
+        "family": "Roboto",
+        "weights": "300,400,500",
+        "weight": "300"
+      }
+    },
+    "straps": {
+      "default": {
+        "text": "#4a4a4a",
+        "linkText": "#D82823",
+        "titleText": "#000000",
+        "bgColor": "#ffffff",
+        "accentColor": "#F06943",
+        "overlayAlpha": 0.85,
+        "overlayAngle": 135,
+        "uiPrimary": {
+          "text": "#ffffff",
+          "bgColor": "#D82823",
+          "accentColor": "#F06943"
+        },
+        "uiSecondary": {
+          "text": "#ffffff",
+          "bgColor": "#D82823",
+          "accentColor": "#F06943"
+        }
+      },
+      "feature": {
+        "text": "#eeeeee",
+        "linkText": "#eeeeee",
+        "titleText": "#ffffff",
+        "bgColor": "#303841",
+        "accentColor": "#F06943",
+        "overlayAlpha": 0.85,
+        "overlayAngle": 135,
+        "uiPrimary": {
+          "text": "#ffffff",
+          "bgColor": "#D82823",
+          "accentColor": "#F06943"
+        },
+        "uiSecondary": {
+          "text": "#ffffff",
+          "bgColor": "#D82823",
+          "accentColor": "#F06943"
+        }
+      },
+      "alternate": {
+        "text": "#4a4a4a",
+        "linkText": "#D82823",
+        "titleText": "#000000",
+        "bgColor": "#f9fafa",
+        "accentColor": "#F06943",
+        "overlayAlpha": 0.85,
+        "overlayAngle": 135,
+        "uiPrimary": {
+          "text": "#ffffff",
+          "bgColor": "#D82823",
+          "accentColor": "#F06943"
+        },
+        "uiSecondary": {
+          "text": "#ffffff",
+          "bgColor": "#D82823",
+          "accentColor": "#F06943"
+        }
+      }
+    }
+  }
+}

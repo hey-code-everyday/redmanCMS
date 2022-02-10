@@ -1,0 +1,71 @@
+{
+  "idToken": "id12345",
+
+  "emailVerificaitonCycle": "unrequested",
+
+  "localProfile": {
+    "termsAgreement": false,
+    "intention": null
+  },
+
+  "remoteProfile": {
+    "isUserVow": {
+      "complete": false,
+      "conditions": [
+        {
+          "item": "termsAgreement",
+          "complete": false
+        },
+        {
+          "item": "loggedIn",
+          "complete": true
+        },
+        {
+          "item": "email_verified",
+          "complete": false
+        },
+        {
+          "item": "contactInfo",
+          "property": "primaryPhone",
+          "complete": false
+        }
+      ]
+    },
+    "listingDetails": {
+      "courtesyOfMessage": "Courtesy of ${agent.name}/${agent.office}",
+      "hiddenFieldsUntilUserVow": [
+      ],
+      "hideAllListingsUntilUserVow": false,
+      "listingDetailsDisclaimer": "The details in this listing should be verified, dummy",
+      "maxPageSize": 50,
+      "maxSearchResults": 500,
+      "perPropertyMaybeHiddenFields": [
+        {
+          "hideFields": [
+            "address",
+            "location",
+            "geojson",
+            "raw.Geocoding"
+          ],
+          "match": "No",
+          "path": "raw.LV_vow_address"
+        }
+      ],
+      "perPropertyMaybeHiddenFieldsUntilUserVow": [
+        {
+          "hideFields": [
+            "address",
+            "location",
+            "geojson",
+            "raw.Geocoding"
+          ],
+          "match": "Yes Without Address",
+          "path": "raw.L_IdxInclude"
+        }
+      ],
+      "searchResultsDisclaimer": "These listings may be totally inaccurate because they are in a DB and that never reflects reality",
+      "showTermsSplash": true,
+      "termsOfService": "Please prick your finger, take the blood and smear it on the screen to agree to use this data. Failure to do so will cause wild bats to descend upon you."
+    }
+  }
+}

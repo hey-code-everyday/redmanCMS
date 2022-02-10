@@ -1,0 +1,479 @@
+{
+  "slug": "global-luxury-homes",
+  "metaInfo": {
+    "title": "Global Luxury Homes",
+    "description": "Global Luxury Homes by Coldwell Banker Complete Real Estate."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-separated-search",
+    "config": {
+      "hidden": false,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            "//assets.rmcloud.com/phoenix/hero-images/homes/luxury-estate-01.jpg"
+          ],
+          "repeat": false,
+          "greyscale": false,
+          "transitionInterval": 4,
+          "transitionStyle": "slide"
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid-custom",
+        "overlayAlpha": 50,
+        "overlayColor": "#33476d",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "%3Cp%3E%3Cem%3ETHE%20GLOBAL%20LUXURY%20DIFFERENCE.%3C/em%3E%3C/p%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3EPRESTIGE.%20PEDIGREE.%20POWER.%20%3C/p%3E",
+        "size": 1
+      },
+      "agentImage": {
+        "height": 0,
+        "width": 280,
+        "filter": "none",
+        "imageUrl": "",
+        "href": "",
+        "linkOut": false
+      },
+      "logoImage": {
+        "height": 100,
+        "width": 0,
+        "filter": "none",
+        "imageUrl": "//assets.rmcloud.com/templates/coldwell_banker/logos/global-luxury_white.png",
+        "href": "",
+        "linkOut": false
+      },
+      "buttonList": [],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "a55a68e0-270e-4b7b-9175-20a27b17675d",
+      "order": 0,
+      "name": "strap-html",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "html": {
+          "html": "%3Cdiv%20class=%22strap-container%20pad-small%22%3E%0A%3Ch1%20class=%22title%22%3EGlobal%20Luxury%20Homes%3C/h1%3E%0A%3Cp%20class=%22subtitle%22%3EFind%20Calgary%20Area%20Luxury%20Homes%3C/p%3E%3C/div%3E",
+          "display": "block",
+          "className": ""
+        }
+      }
+    },
+    {
+      "id": "d4fd1d16-fcba-40ca-a36b-b3206eef8c9e",
+      "order": 1,
+      "name": "strap-mosaic",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "numTiles": 3,
+        "tile1": {
+          "imageUrl": "//assets.rmcloud.com/templates/cbcompleterealestate_com_002/images/iStock-590051254.jpg?2",
+          "href": "/search/p/luxury-homes",
+          "linkOut": false,
+          "title": "Search Luxury Homes",
+          "subtitle": "1mill+",
+          "useCustomOverlay": true,
+          "overlayOpacity": 0,
+          "overlayColor": "#000"
+        },
+        "tile2": {
+          "imageUrl": "//assets.rmcloud.com/templates/cbcompleterealestate_com_002/images/iStock-519043234.jpg",
+          "href": "/search/p/luxury-condos",
+          "linkOut": false,
+          "title": "Search Luxury Condos",
+          "subtitle": "1mill+",
+          "useCustomOverlay": true,
+          "overlayOpacity": 0,
+          "overlayColor": "#000"
+        },
+        "tile3": {
+          "imageUrl": "//assets.rmcloud.com/templates/cbcompleterealestate_com_002/images/iStock-519501442.jpg",
+          "href": "/search/p/country-homes",
+          "linkOut": false,
+          "title": "Search Country Homes",
+          "subtitle": "1mill+",
+          "useCustomOverlay": true,
+          "overlayOpacity": 0,
+          "overlayColor": "#000"
+        },
+        "tile4": {
+          "imageUrl": "//via.placeholder.com/350x350",
+          "href": "#",
+          "linkOut": false,
+          "title": "Title Ipsum",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "useCustomOverlay": false,
+          "overlayOpacity": 85,
+          "overlayColor": "#000"
+        },
+        "tile5": {
+          "imageUrl": "//via.placeholder.com/350x350",
+          "href": "#",
+          "linkOut": false,
+          "title": "Title Ipsum",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "useCustomOverlay": false,
+          "overlayOpacity": 85,
+          "overlayColor": "#000"
+        },
+        "tile6": {
+          "imageUrl": "//via.placeholder.com/350x350",
+          "href": "#",
+          "linkOut": false,
+          "title": "Title Ipsum",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "useCustomOverlay": false,
+          "overlayOpacity": 85,
+          "overlayColor": "#000"
+        },
+        "tile7": {
+          "imageUrl": "//via.placeholder.com/350x350",
+          "href": "#",
+          "linkOut": false,
+          "title": "Title Ipsum",
+          "subtitle": "Lorem ipsum dolor sit amet",
+          "useCustomOverlay": false,
+          "overlayOpacity": 85,
+          "overlayColor": "#000"
+        },
+        "useTextShadow": true,
+        "textShadow": {
+          "x": 0,
+          "y": 0,
+          "blur": 10,
+          "color": "#000000"
+        },
+        "useCustomTextColor": false,
+        "customTextColor": "#ffffff",
+        "migrations": {
+          "0": true
+        }
+      }
+    },
+    {
+      "id": "ce8837d8-6c0a-42a1-82ed-96f4c455dda0",
+      "order": 2,
+      "name": "strap-text",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "text": {
+          "html": "%3Cp%3ELaunched%20in%20early%202017,%20the%3Cstrong%3E%20Coldwell%20Banker%20Global%20Luxury%E2%84%A2%3C/strong%3E%20program%20legacy%20traces%20its%20roots%20to%20Coldwell%20Banker%20Previews%20International%C2%AE%20and%20the%20Previews%C2%AE%20program,%20a%20world%20leader%20in%20luxury%20real%20estate%20since%201933.%3C/p%3E%3Cp%3E%3Cspan%20class=%22ql-size-large%22%20style=%22color:%20rgb(36,%20100,%20174);%22%3EColdwell%20Banker%20Global%20Luxury%20Property%20Specialists%20are%20an%20exclusive%20group%20within%20the%20Coldwell%20Banker%20organization,%20making%20up%20under%20ten%20percent%20of%20independent%20sales%20associates%20affiliated%20with%20the%20brand%20worldwide.%3C/span%3E%3C/p%3E%3Cp%3E%3Cstrong%3EColdwell%20Banker%20Global%20Luxury%20Property%20Specialists%3C/strong%3E%20conducted%20approximately%2025,000%20transactions%20of%20homes%20priced%20at%20$1%20million%20or%20more%20in%202016.%20On%20average,%20the%20Coldwell%20Banker%20brand%20handles%20approximately%20$130%20million%20in%20luxury%20home%20sales%20every%20day.%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "textWidth": 0,
+        "title": {
+          "html": "%3Cp%3EGLOBAL%20LUXURY%20COLLECTIONS%20&amp;%20SERVICES%3C/p%3E",
+          "size": 1
+        },
+        "buttonList": [
+          {
+            "text": "Contact Us",
+            "type": "primary",
+            "action": "link",
+            "icon": "icon-envelope-open",
+            "href": "/contact",
+            "linkOut": false
+          },
+          {
+            "text": "Coldwell Banker Global Luxury",
+            "type": "outlined",
+            "action": "link",
+            "icon": "",
+            "href": "https://www.coldwellbankerluxury.com/",
+            "linkOut": true
+          }
+        ],
+        "migrations": {
+          "0": true
+        }
+      }
+    },
+    {
+      "id": "62c0ca7e-5457-4626-992d-1a8e0c9055cd",
+      "order": 3,
+      "name": "strap-latest-listings",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "feature",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3ELUXURY%20FEATURED%20LISTINGS%3C/p%3E",
+          "size": 2
+        },
+        "text": {
+          "html": "%3Cp%3ECalgary%20Luxury%20Real%20Estate%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "buttonList": [
+          {
+            "text": "View all Luxury Listings",
+            "type": "primary",
+            "action": "link",
+            "icon": "",
+            "href": "/search/p/luxury",
+            "linkOut": false
+          }
+        ],
+        "useRealtorListings": false,
+        "centerSearch": false,
+        "numListings": 9,
+        "predefinedSearch": "",
+        "migrations": {
+          "0": true,
+          "1": true
+        }
+      }
+    },
+    {
+      "id": "8c1250bc-5d9a-45b1-8635-acccc6f66622",
+      "order": 4,
+      "name": "strap-html",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "alternate",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#345aa5",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#345aa5",
+                "pos": 0
+              },
+              {
+                "color": "#345aa5",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "html": {
+          "html": "%3Cdiv%20class=%22strap-container%20pad-small%22%3EColdwell%20Banker%20and%20the%20Coldwell%20Banker%20logo%20are%20registered%20mark%20owned%20by%20Coldwell%20Banker%20Real%20Estate%20LLC.%0AColdwell%20Banker%20Global%20Luxury%20and%20the%20Coldwell%20Banker%20Global%20Luxury%20logo%20are%20service%20marks%20owned%20by%20Coldwell%20Banker%20Real%20Estate%20LLC.%20Each%20office%20is%20independently%20owned%20and%20operated.%3C/div%3E",
+          "display": "block",
+          "className": ""
+        }
+      }
+    }
+  ]
+}

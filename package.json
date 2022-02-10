@@ -1,0 +1,210 @@
+{
+  "name": "page-builder",
+  "version": "46.13.89",
+  "description": "Phoenix Page Builder",
+  "author": "Redman Tech",
+  "publishConfig": {
+    "registry": "http://npm.rmcloud.com:8123"
+  },
+  "main": "./src/setup.js",
+  "bundle": {
+    "stateKey": "__PHOENIX__",
+    "bodyClass": "rm-phoenix",
+    "scripts": [
+      {
+        "source": "https://cdn.polyfill.io/v2/polyfill.js?features=default-3.6,Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,fetch,Object.entries"
+      },
+      {
+        "source": "/page-builder/${version}/js/manifest.js"
+      },
+      {
+        "source": "/page-builder/${version}/js/vendor.js"
+      },
+      {
+        "source": "/page-builder/${version}/js/app.js"
+      }
+    ],
+    "css": [
+      {
+        "source": "/page-builder/resources/css/bulma.0.5.3.css"
+      },
+      {
+        "source": "/page-builder/${version}/css/app.css"
+      },
+      {
+        "source": "/page-builder/resources/fonts/linearicons.css",
+        "defer": true
+      },
+      {
+        "source": "/page-builder/resources/fonts/socicons.css",
+        "defer": true
+      },
+      {
+        "source": "/page-builder/resources/css/quill.bubble.min.css",
+        "defer": true
+      }
+    ]
+  },
+  "scripts": {
+    "size": "node build/size.js",
+    "dev": "node build/dev-server.js",
+    "start": "npm run dev",
+    "serve": "npm run dev",
+    "build": "node build/build.js",
+    "build-server": "node build/build-server.js",
+    "build-local": "npm run build-server local;npm run build local",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "jest",
+    "watch": "./node_modules/.bin/jest --watchAll",
+    "update-env": "node update-env",
+    "update-dev": "node update-dev",
+    "update-staging": "node update-staging"
+  },
+  "dependencies": {
+    "auth0-js": "9.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-polyfill": "^6.26.0",
+    "bulma": "^0.6.1",
+    "color": "^2.0.1",
+    "cookie-parse": "^0.4.0",
+    "css-vars-ponyfill": "^1.7.2",
+    "dayjs": "^1.8.8",
+    "debounce": "^1.1.0",
+    "debounce-promise": "^3.0.1",
+    "deep-merge": "^1.0.0",
+    "deepmerge": "^2.0.1",
+    "email-validator": "^1.1.1",
+    "es6-object-assign": "^1.1.0",
+    "flickity-imagesloaded": "^2.0.0",
+    "google-maps-api-loader": "^1.0.0",
+    "history": "^4.7.2",
+    "immutability-helper": "^2.4.0",
+    "jest-cli": "^23.4.1",
+    "joi-browser": "^10.6.1",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.11",
+    "markdown-it": "^8.4.2",
+    "pluralize": "^7.0.0",
+    "popsicle": "^9.1.0",
+    "postscribe": "^2.0.8",
+    "promise-polyfill": "^6.0.2",
+    "query-string": "^5.0.0",
+    "quill": "^1.3.4",
+    "route-pattern": "0.0.6",
+    "sortablejs": "^1.7.0",
+    "stylex-lib": "^1.2.2",
+    "token-generator": "^1.0.0",
+    "url-parse": "^1.2.0",
+    "uuid": "^3.1.0",
+    "velocity-animate": "^1.5.0",
+    "vue": "2.6.12",
+    "vue-carousel": "^0.18.0",
+    "vue-clipboard2": "0.0.8",
+    "vue-file-upload": "^0.3.1",
+    "vue-flickity": "^1.0.9",
+    "vue-lazyload": "^1.2.6",
+    "vue-meta": "^1.6.0",
+    "vue-router": "^3.0.1",
+    "vue-slider-component": "^2.5.4",
+    "vue-style-loader": "^3.0.3",
+    "vue-videobg": "^2.0.0",
+    "vue2-google-maps": "^0.10.6",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.35",
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chalk": "^2.3.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "copy-webpack-plugin": "^4.2.1",
+    "cors": "^2.8.4",
+    "cpy": "^7.0.1",
+    "css-loader": "^0.28.0",
+    "deep-freeze": "0.0.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-flowtype-errors": "^3.5.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^1.1.4",
+    "flow-bin": "^0.70.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.3",
+    "jest": "^22.1.4",
+    "joi": "^13.0.2",
+    "jsdom": "11.4.0",
+    "jsdom-global": "3.0.2",
+    "node-sass": "^4.6.1",
+    "opn": "^5.1.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "ora": "^1.2.0",
+    "portfinder": "^1.0.13",
+    "rimraf": "^2.6.0",
+    "sass-loader": "^6.0.6",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.5.8",
+    "vue-jest": "^2.0.0",
+    "vue-loader": "^13.5.0",
+    "vue-server-renderer": "^2.6.12",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "2.6.12",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2",
+    "webpack-merge": "^4.1.1",
+    "webpack-replace": "^1.0.0",
+    "webpack-version-file-plugin": "^0.2.3"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 5%",
+    "last 2 versions",
+    "ie 11"
+  ],
+  "jest": {
+    "clearMocks": true,
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1",
+      "^listing-details@/(.*)$": "<rootDir>/src/modules/listing-details/$1"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "setupFiles": [
+      "./jestSetup.js"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    }
+  }
+}

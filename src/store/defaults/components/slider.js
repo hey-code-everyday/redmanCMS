@@ -1,0 +1,42 @@
+export default function ({
+  initialIndex = 0,
+  accessibility = true,
+  setGallerySize = false,
+  cellAlign = 'center',
+  contain = false,
+  imagesLoaded = true,
+  draggable = true,
+  freeScroll = false,
+  wrapAround = true,
+  lazyLoad = 2,
+  bgLazyLoad = 2,
+  autoPlay = 0,
+  pauseAutoPlayOnHover = true,
+  dragThreshold = 10,
+  selectedAttraction = 0.025,
+  friction = 0.28,
+  freeScrollFriction = 0.075,
+  prevNextButtons = false,
+  pageDots = true
+} = {}) {
+  return {
+    initialIndex,
+    accessibility,
+    cellAlign,
+    contain,
+    imagesLoaded,
+    draggable,
+    freeScroll,
+    wrapAround,
+    lazyLoad,
+    bgLazyLoad,
+    autoPlay,
+    pauseAutoPlayOnHover,
+    dragThreshold,
+    selectedAttraction,
+    friction,
+    freeScrollFriction,
+    prevNextButtons,
+    pageDots
+  }
+}

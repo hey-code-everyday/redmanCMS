@@ -1,0 +1,155 @@
+{
+  "slug": "moving-here",
+  "metaInfo": {
+    "title": "Moving To {{ website.config.office.city }}",
+    "description": "Relocating to a new area is an exciting and significant move. Different from your typical real estate transaction, there are many additional factors to consider. As an experienced real estate professional, I have addressed these factors for many families moving to the area and I am ready to make your move a comfortable one."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": false,
+      "outerClasses": "short-hero",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            "//assets.rmcloud.com/phoenix/hero-images/homes/sunny-houses.jpg"
+          ],
+          "repeat": false,
+          "greyscale": true
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid-custom",
+        "overlayAlpha": 0,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "%3Cp%3E%3Cbr%3E%3C/p%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3E%3Cbr%3E%3C/p%3E",
+        "size": 1
+      },
+      "buttonList": [],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "364e2d7f-2870-4ad2-b126-e1869b9421b6",
+      "order": 0,
+      "name": "strap-form-aside",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#FECD51",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#FECD51",
+                "pos": 0
+              },
+              {
+                "color": "#000000",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "title": {
+          "html": "%3Cp%3EMoving%20to%20%7B%7B%20website.config.office.city%20%7D%7D%3C/p%3E",
+          "size": 2
+        },
+        "text": {
+          "html": "%3Cp%20class=%22ql-align-justify%22%3ERelocating%20to%20a%20new%20area%20is%20an%20exciting%20and%20significant%20move.%20Different%20from%20your%20typical%20real%20estate%20transaction,%20there%20are%20many%20additional%20factors%20to%20consider.%20As%20an%20experienced%20real%20estate%20professional,%20I%20have%20addressed%20these%20factors%20for%20many%20families%20moving%20to%20the%20area%20and%20I%20am%20ready%20to%20make%20your%20move%20a%20comfortable%20one.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EI%20would%20be%20honoured%20to%20provide%20my%20expertise%20and%20knowledge%20to%20you%20when%20it%20comes%20to%20the%20real%20estate%20and%20relocation%20process%20in%20general.%20My%20goal%20is%20to%20help%20you%20be%20as%20prepared%20as%20possible%20prior%20to%20moving%20here.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3ETo%20start%20the%20home%20buying%20process,%20please%20fill%20out%20the%20form%20below.%20Once%20received,%20I%20will%20be%20in%20contact%20with%20you%20shortly.%20In%20the%20meantime,%20you%20may%20want%20to%20consider%20signing%20up%20for%20a%20personal%20account%20via%20my%20website.%20By%20signing%20up,%20you%20can%20access%20up-to-date%20information%20on%20all%20active%20listings%20in%20the%20area.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EYou%20will%20soon%20be%20on%20your%20way%20to%20finding%20your%20dream%20home%20in!%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "image": {
+          "height": 0,
+          "width": 0,
+          "filter": "none",
+          "imageUrl": "",
+          "href": "",
+          "linkOut": false
+        },
+        "linkList": [
+          {
+            "text": "{{ office.email }}",
+            "type": "link",
+            "icon": "icon-envelope-open",
+            "href": "#",
+            "linkOut": false
+          },
+          {
+            "text": "{{ filters.phoneNumber(office.phone) }}",
+            "type": "link",
+            "icon": "icon-telephone",
+            "href": "tel:{{ website.config.office.phone }}",
+            "linkOut": false
+          }
+        ],
+        "redform": {
+          "formID": "stock/relocating-to"
+        },
+        "migrations": {
+          "0": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "listing-details",
+  "metaInfo": {
+    "title": "Listing Details",
+    "description": ""
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": true,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            ""
+          ],
+          "repeat": false,
+          "greyscale": false,
+          "transitionInterval": 4,
+          "transitionStyle": "slide"
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid",
+        "overlayAlpha": 85,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "Lorem%20%3Cstrong%20class=%22is-strong%22%3Eipsum%3C/strong%3E%20dolor%20%3Cspan%20class=%22is-soft%22%3Esit%20amet.%3C/span%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "Hero Basic",
+        "size": 1
+      },
+      "buttonList": [
+        {
+          "text": "My Button",
+          "type": "primary",
+          "action": "link",
+          "icon": "",
+          "href": "#",
+          "linkOut": false
+        }
+      ],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "search"
+    }
+  },
+  "straps": [
+    {
+      "id": "73cb9573-7c60-4aac-9db4-ea6986e127c6",
+      "order": 0,
+      "name": "strap-listing-details",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "left",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#D82823",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#D82823",
+                "pos": 0
+              },
+              {
+                "color": "#D82823",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "formMoreInfo": {
+          "formID": "stock/gus-details-more-info"
+        },
+        "formRequestShowing": {
+          "formID": "stock/gus-details-request-showing"
+        }
+      }
+    }
+  ]
+}

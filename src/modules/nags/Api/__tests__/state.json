@@ -1,0 +1,141 @@
+{
+  "config": {
+    "clientIdToken": "id12345",
+    "spaceID": "rwp-1937",
+    "rootUrl": "/search",
+    "requestUrl": "http://localhost:8080",
+    "gusApi": "https://gus.rmcloud.com/",
+    "grandcentralApi": "https://grandcentral.rmcloud.com/",
+    "listingDetailsHref": "https://www.yourtruhome.com/details/%mls%",
+
+    "sources": [
+      "idx-edm-v5"
+    ],
+    "autocomplete": {
+      "focus.lat": 53.5555501,
+      "focus.lon": -113.7741251,
+      "distance": 50
+    },
+    "auth0": {
+      "key": "DFS7LNKVqUtl2xtvTB6ooxv_wchgHAQs",
+      "domain": "caydenberg.auth0.com"
+    },
+
+    "resultsPerPage": 20,
+    "defaultH1": "Edmonton, AB Real Estate",
+    "defaultLocationSlug": "edmonton",
+    "defaultVals": {
+      "low_price": 250000,
+      "high_price": 400000
+    },
+    "panels": [
+      {
+        "name": "budgetRange",
+        "config": {
+          "maxPrice": 1000000,
+          "interval": 50000
+        }
+      },
+
+      {
+        "name": "bedrooms",
+        "config": true
+      },
+
+      {
+        "name": "bathrooms",
+        "config": true
+      },
+
+      {
+        "name": "propertyTypes",
+        "config": {
+          "types": ["house", "condo", "townhouse", "land", "commercial", "rural", "mobile"]
+        }
+      },
+
+      {
+        "name": "minSqft",
+        "config": {
+          "maxSqft": 3000,
+          "interval": 50
+        }
+      },
+
+      {
+        "name": "maxAge",
+        "config": {
+          "maxAge": 100,
+          "interval": 1
+        }
+      },
+      {
+        "name": "gasFireplace",
+        "config": false
+      }
+    ],
+    "popularFilters": [
+      {
+        "label": "2 bathrooms",
+        "values": {
+          "bathrooms": "2p"
+        }
+      },
+
+      {
+        "label": "2 bedrooms",
+        "values": {
+          "bedrooms": "2p"
+        }
+      },
+
+      {
+        "label": "House, townhouse & condo",
+        "values": {
+          "property_types": "house|townhouse|condo"
+        }
+      },
+
+      {
+        "label": "$250K - $350K",
+        "values": {
+          "low_price": 250000,
+          "high_price": 350000
+        }
+      }
+    ],
+    "tags": [
+      {
+        "name": "budgetRange",
+        "config": true
+      },
+
+      {
+        "name": "bedrooms",
+        "config": true
+      },
+
+      {
+        "name": "bathrooms",
+        "config": true
+      },
+
+      {
+        "name": "propertyTypes",
+        "config": {
+          "types": ["house", "condo", "townhouse", "land", "commercial", "rural", "mobile"]
+        }
+      }
+    ],
+    "styles": {
+      "backgroundColor": "white",
+      "textColor": "#131313",
+      "boxShadow": "0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1)",
+      "primaryColor": "green",
+      "primaryTextColor": "white",
+      "lightTextColor": "#666",
+      "titleFontFamily": "\"Crete Round\", Georgia, \"Times New Roman\", serif",
+      "textFontFamily": "\"Open Sans\", Helvetica, Arial, sans-serif"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "header-basic",
+  "nav": [
+    {
+      "label": "Top Level 1",
+      "href": "",
+      "linkOut": false,
+      "dropdown": [
+        {
+          "label": "Nav Item 1",
+          "href": "/",
+          "linkOut": false
+        },
+        {
+          "label": "Nav Item 2",
+          "href": "/",
+          "linkOut": false
+        },
+        {
+          "label": "Nav Item 3",
+          "href": "/",
+          "linkOut": false
+        }
+      ]
+    },
+    {
+      "label": "Top Level 2",
+      "href": "/",
+      "linkOut": false,
+      "dropdown": []
+    }
+  ],
+  "config": {
+    "fixed": false
+  },
+  "state": {
+    "logo": {
+      "height": 40,
+      "width": 0,
+      "filter": "none",
+      "imageUrl": "https://bulma.io/images/bulma-logo.png",
+      "href": "/index",
+      "linkOut": false
+    },
+    "title": {
+      "html": "<h2><a href=\"/index\">{{ website.config.display.siteName }}</a></h2>",
+      "display": "block",
+      "className": ""
+    }
+  }
+}

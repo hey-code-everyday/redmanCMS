@@ -1,0 +1,373 @@
+@import '~bulma/sass/utilities/_all'
+
+.strap
+  position: relative
+  z-index: 0
+
+  > hr
+    margin: 0
+    width: 100%
+
+.strap-outer
+  position: relative
+  z-index: 5
+  width: 100%
+
+  &.is-aligned-left
+    text-align: left
+
+  &.is-aligned-centered
+    text-align: center
+
+  &.is-aligned-right
+    text-align: right
+
+  &.is-aligned-justify
+    text-align: justify
+
+.is-aligned-left
+  text-align: left
+
+.is-aligned-centered
+  text-align: center
+
+.is-aligned-right
+  text-align: right
+
+.is-aligned-justify
+  text-align: justify
+
+.strap-inner
+  position: relative
+  z-index: 3
+
+  width: 100%
+
+.strap-overlay
+  position: absolute
+
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+  pointer-events: none
+
+.strap-container
+  width: 100%
+  box-sizing: border-box
+  padding-left: 2.5rem !important
+  padding-right: 2.5rem !important
+
+  &.pad-small
+    padding-top: 2.5rem
+    padding-bottom: 2.5rem
+
+  &.pad
+    padding-top: 4.25rem
+    padding-bottom: 4.25rem
+
+  &.pad-medium
+    padding-top: 6.25rem
+    padding-bottom: 6.25rem
+
+  &.pad-big
+    padding-top: 9.5rem
+    padding-bottom: 9.5rem
+
+  +mobile
+    width: 100%
+    padding: 25px !important
+
+.strap-header,
+.strap-footer,
+.strap-content
+  &:empty
+    display: none
+
+.strap-header
+  .ql-container
+    font-size: inherit
+    font-family: inherit
+
+  .is-1
+    font-size: 2.5em
+
+  .is-2
+    font-size: 2em
+
+  .is-3
+    font-size: 1.5em
+
+.strap-content
+  font-size: 18px
+
+  .ql-container
+    font-size: 18px
+    font-family: inherit
+
+  &:last-child
+    padding-bottom: 0
+
+  &:empty
+    + .strap-footer
+      margin-top: 0
+
+.has-text-centered
+  p.strap-content
+    margin-left: auto
+    margin-right: auto
+
+.has-text-left
+  p.strap-content
+      margin-left: 0
+
+.has-text-right
+  p.strap-content
+    margin-right: 0
+
+.strap-footer,
+.strap-buttons
+  .strap-button
+    margin-top: 0.4rem
+    margin-bottom: 0.4rem
+    margin-right: 0.8rem
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
+  +mobile
+    .strap-button
+      margin-left: 0 !important
+      margin-right: 0 !important
+
+.is-aligned-centered
+  text-align: center
+
+  .strap-buttons
+    .strap-button
+      margin-left: 0.4rem
+      margin-right: 0.4rem
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-right: 0
+
+.is-aligned-left
+  text-align: left
+
+  .strap-buttons
+    .strap-button
+      margin-right: 0.8rem
+      margin-left: 0
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-right: 0
+
+.is-aligned-right
+  text-align: right
+
+  .strap-buttons
+    .strap-button
+      margin-left: 0.8rem
+      margin-right: 0
+      &:first-child
+        margin-left: 0
+      &:last-child
+        margin-right: 0
+
+.strap-images
+  .editable-image
+    margin-top: 0.4rem
+    margin-bottom: 0.4rem
+    margin-right: 0.8rem
+
+.is-aligned-centered
+  text-align: center
+
+  .strap-images
+    .editable-image
+      margin-left: 0.4rem
+      margin-right: 0.4rem
+
+.is-aligned-right
+  text-align: right
+
+  .strap-images
+    .editable-image
+      margin-left: 0.8rem
+      margin-right: 0
+
+.strap-links
+  .editable-link
+    margin-top: 0.4rem
+    margin-bottom: 0.4rem
+    margin-right: 0.8rem
+
+.is-aligned-centered
+  text-align: center
+
+  .strap-links
+    .editable-link
+      margin-left: 0.4rem
+      margin-right: 0.4rem
+
+.is-aligned-left
+
+  .strap-links
+    .editable-link
+      margin-left: 0
+      margin-right: 0.8rem
+
+.is-aligned-right
+  text-align: right
+
+  .strap-links
+    .editable-link
+      margin-left: 0.8rem
+      margin-right: 0
+
+.strap-footer
+  margin-top: 3rem
+  clear: both
+
+  .control-strip
+    &.is-footer
+      margin-top: 2rem
+
+.has-text-left
+  .control-strip
+    .control
+      &:first-child
+        margin-left: 0
+
+.has-text-right
+  .control-strip
+    .control
+      &:last-child
+        margin-right: 0
+
+.strap-button
+  position: relative
+  display: inline-flex
+  box-shadow: 0
+  border: none
+  align-items: center
+  justify-content: center
+  min-height: $strapButtonHeight
+  min-width: 2.25em
+
+  .icon
+    &:first-child:not(:last-child)
+      margin-right: .4em
+
+  &.is-icon
+    min-width: 52px
+
+    .icon
+      font-size: 24px
+      &:first-child:not(:last-child)
+        margin: 0
+
+  em
+    line-height: 1.1
+    font-style: normal
+    font-size: 1rem
+
+  &:not(.is-icon)
+    min-width: 12rem
+
+  &.is-small
+    min-width: 16px
+    min-height: 37px
+    font-size: 16px
+    padding: 0 1.2em
+
+  +mobile
+    width: 100%
+    max-width: 100%
+    margin-left: 0
+    margin-right: 0
+    white-space: normal
+    min-height: 46px
+    height: auto
+
+  &.is-outlined,
+  &.is-outlined-light
+    background: transparent
+    border: solid 1px
+
+.strap-input
+  display: inline-block
+  display: flex
+  justify-content: center
+  align-items: center
+
+  box-shadow: none
+  border: none
+  padding: 0 .75em
+  min-width: 300px
+
+  input
+    outline: none
+    box-shadow: none
+    border: none
+    padding: 0
+    width: 100%
+    font-size: 0.9rem !important
+    background-color: transparent
+
+.strap-tags
+  .strap-tag
+    margin: 0.4em
+
+.strap-tile
+  position: relative
+  text-align: center
+
+  .overlay
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+
+    &.has-bg-image
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: 50% 50%
+      z-index: 1
+
+    &.is-overlay
+      z-index: 2
+
+    &.is-content
+      z-index: 3
+
+    &.is-link
+      z-index: 4
+
+    .overlay-inner
+      padding: 1em
+
+.strap-tag
+  position: relative
+  min-width: 2.25em
+  background-color: transparent
+  border: solid 1px
+
+  em
+    text-transform: uppercase
+    letter-spacing: 1px
+    font-style: normal
+    font-size: 0.75em
+
+  &:not(.is-icon)
+    min-width: 3.5rem
+
+.app-page__straps
+  // flex: 1 0 0

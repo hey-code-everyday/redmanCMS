@@ -1,0 +1,22 @@
+{
+  "stateKey": "<%= package.bundle.stateKey %>",
+  "bodyClass": "<%= package.bundle.bodyClass %>",
+  "version" : {
+    "name": "<%= package.name %>",
+    "buildDate": "<%= currentTime %>",
+    "version": "<%= package.version %>"
+  },
+  "scripts": [
+    { "src": "//cdn.polyfill.io/v2/polyfill.js?features=default-3.6,Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes", "external": true },
+    "js/manifest",
+    "js/vendor",
+    "js/app"
+  ],
+  "css": [
+    { "src": "//assets.rmcloud.com/frontend/static/assets/css/bulma.0.5.3.css", "external": true },
+    "css/app",
+    { "src": "//assets.rmcloud.com/frontend/static/assets/fonts/linearicons.css", "external": true },
+    { "src": "//assets.rmcloud.com/frontend/static/assets/fonts/socicons.css", "external": true },
+    { "src": "//cdnjs.cloudflare.com/ajax/libs/quill/1.3.4/quill.bubble.min.css", "external": true }
+  ]
+}

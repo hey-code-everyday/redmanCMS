@@ -1,0 +1,214 @@
+{
+  "slug": "local-info-red-deer",
+  "metaInfo": {
+    "title": "Red Deer Local Info",
+    "description": "Learn More about Red Deer, Alberta."
+  },
+  "hero": {
+    "id": "hero",
+    "order": 0,
+    "name": "hero-basic",
+    "config": {
+      "hidden": false,
+      "outerClasses": "",
+      "innerClasses": "",
+      "style": {
+        "rule": true,
+        "theme": "feature",
+        "textAlign": "centered",
+        "bgTransparent": false,
+        "bgImage": {
+          "imageUrls": [
+            "//assets.rmcloud.com/shared-images/local_info/red-deer-from-above.jpg"
+          ],
+          "repeat": false,
+          "greyscale": false,
+          "transitionInterval": 4,
+          "transitionStyle": "slide"
+        },
+        "bgVideo": {
+          "mp4Url": "",
+          "webmUrl": "",
+          "oggUrl": ""
+        },
+        "overlayStyle": "solid-custom",
+        "overlayAlpha": 35,
+        "overlayColor": "#000000",
+        "overlayGradient": {
+          "angle": 135,
+          "colors": [
+            {
+              "color": "#000000",
+              "pos": 0
+            },
+            {
+              "color": "#000000",
+              "pos": 1
+            }
+          ]
+        }
+      }
+    },
+    "state": {
+      "text": {
+        "html": "%3Cp%3E%3Cbr%3E%3C/p%3E",
+        "display": "block",
+        "className": ""
+      },
+      "title": {
+        "html": "%3Cp%3E%3Cspan%20class=%22ql-size-large%22%3ERED%20DEER,%20ALBERTA%3C/span%3E%3C/p%3E",
+        "size": 1
+      },
+      "buttonList": [],
+      "searchBar": {
+        "placeholder": "Search by city, neighbourhood, or MLS #",
+        "background": "dark"
+      },
+      "footerComponent": "buttons"
+    }
+  },
+  "straps": [
+    {
+      "id": "cbdf8aff-3476-450c-8c00-26d8999286d6",
+      "order": 0,
+      "name": "strap-text",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              ""
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid",
+          "overlayAlpha": 85,
+          "overlayColor": "#c91e23",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#c91e23",
+                "pos": 0
+              },
+              {
+                "color": "#ffffff",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "text": {
+          "html": "%3Cp%20class=%22ql-align-justify%22%3EThe%20city%20of%20Red%20Deer%20is%20Central%20Alberta's%20primary%20transportation,%20economic%20and%20residential%20hub,%20located%20midway%20between%20the%20major%20urban%20centres%20of%20Calgary%20and%20Edmonton%20on%20Highway%202.%20Set%20in%20midst%20of%20Alberta's%20fertile%20farmland%20and%20gently%20rolling%20hills%20with%20the%20Rocky%20Mountains%20visible%20along%20the%20southwest%20horizon,%20Red%20Deer%20is%20one%20of%20the%20fastest%20growing%20communities%20in%20Canada%20and%20services%20an%20outlying%20market%20of%20over%202%20million%20people%20within%20a%20160%20kilometre%20radius.%20With%20a%20population%20of%20100,418%20and%20a%20real%20estate%20market%20containing%20over%2042,000%20homes,%20condominiums%20and%20apartments,%20Red%20Deer%20is%20a%20bustling%20and%20diverse%20community.%20The%20city's%20population%20is%20one%20of%20the%20youngest%20in%20Canada,%20with%20a%20median%20age%20of%2035.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EAs%20the%20largest%20urban%20centre%20in%20Central%20Alberta,%20Red%20Deer%20is%20home%20to%20almost%20all%20of%20the%20region's%20major%20amenities%20ranging%20from%20major%20stores,%20grocery%20and%20restaurant%20chains%20to%20a%20mix%20of%20smaller,%20locally-run%20cafes%20and%20shops.%20The%20city%20provides%20comprehensive%20police,%20health%20and%20emergency%20services,%20and%20offers%20an%20excellent%20education%20system%20including%20both%20public%20and%20Catholic%20school%20boards%20in%20addition%20to%20the%20acclaimed%20Red%20Deer%20College.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3ERed%20Deer%20has%20a%20wide%20range%20of%20recreational%20options%20for%20all%20ages%20and%20activity%20levels,%20including%20Collicutt%20Centre,%20a%20large%20complex%20housing%20an%20ice%20rink,%20indoor%20soccer%20field,%20running%20track,%20pock,%20weight%20room,%20and%20a%20field%20house.%20Great%20West%20Adventure%20Park%20is%20a%20popular%20BMX%20biking%20track,%20and%20skiers%20enjoy%20the%20slops%20at%20Canyon%20Ski%20Hill%20located%20only%2010%20minutes%20from%20the%20city.%3C/p%3E%3Cp%20class=%22ql-align-justify%22%3EThe%20city%20is%20proud%20to%20offer%20its%20residents%20ample%20green%20space%20and%20parkland%20within%20the%20city,%20including%20the%20picturesque%20Bower%20Ponds%20in%20Waskasoo%20Park,%20Great%20Chief%20Athletic%20Park,%20Kiwanis%20Picnic%20Park,%20and%20the%20popular%20Heritage%20Ranch%20near%20the%20Red%20Deer%20River,%20which%20offers%20horseback%20riding%20and%20hay%20rides%20in%20addition%20to%20its%20park%20and%20picnic%20facilities.%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "textWidth": 0,
+        "title": {
+          "html": "%3Cp%3EAbout%20Red%20Deer,%20Alberta%3C/p%3E",
+          "size": 1
+        },
+        "buttonList": [
+          {
+            "text": "Search Red Deer Listings",
+            "type": "primary",
+            "action": "link",
+            "icon": "",
+            "href": "/search",
+            "linkOut": false
+          }
+        ],
+        "migrations": {
+          "0": true
+        }
+      }
+    },
+    {
+      "id": "4dbdee5d-2c63-4a1e-b5d7-db8df9c80fd3",
+      "order": 1,
+      "name": "strap-text",
+      "config": {
+        "hidden": false,
+        "outerClasses": "",
+        "innerClasses": "",
+        "style": {
+          "rule": true,
+          "theme": "default",
+          "textAlign": "centered",
+          "bgTransparent": false,
+          "bgImage": {
+            "imageUrls": [
+              "//assets.rmcloud.com/templates/reddeerlistings_ca/images/footer_lodyas.png"
+            ],
+            "repeat": false,
+            "greyscale": false,
+            "transitionInterval": 4,
+            "transitionStyle": "slide"
+          },
+          "bgVideo": {
+            "mp4Url": "",
+            "webmUrl": "",
+            "oggUrl": ""
+          },
+          "overlayStyle": "solid-custom",
+          "overlayAlpha": 0,
+          "overlayColor": "#c91e23",
+          "overlayGradient": {
+            "angle": 135,
+            "colors": [
+              {
+                "color": "#c91e23",
+                "pos": 0
+              },
+              {
+                "color": "#ffffff",
+                "pos": 1
+              }
+            ]
+          }
+        }
+      },
+      "state": {
+        "text": {
+          "html": "%3Ch2%3E%3Cstrong%3ERED%20DEER%20INFORMATION%3C/strong%3E%3C/h2%3E%3Cp%20class=%22ql-align-center%22%3EGet%20more%20information%20about%20Red%20Deer%20and%20what%20it's%20like%20to%20live,%20work%20and%20play%20here.%20Learn%20more%20about%20our%20local%20government,%20the%20services%20and%20local%20businesses,%20and%20the%20greater%20Red%20Deer%20region.%3C/p%3E%3Cp%3E%3Ca%20href=%22http://www.reddeer.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECity%20of%20Red%20Deer%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/city-government/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ELocal%20City%20Council%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeerchamber.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EChamber%20of%20Commerce%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.rdpsd.ab.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EPublic%20School%20System%3C/a%3E%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/Visitors/About+Red+Deer/History/default.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EHistory%20of%20Red%20Deer%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.downtownreddeer.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EDowntown%20Red%20Deer%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/Residents/Emergency+Assistance/default.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EEmergency%20Services%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.rdcrd.ab.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECatholic%20School%20Board%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.flyreddeer.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20Airport%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.rdpl.org/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20Library%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/Visitors/Local+Media.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ELocal%20News%20&amp;%20TV%20Media%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.rdc.ab.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20College%3C/a%3E%3C/p%3E%3Ch2%3E%3Cstrong%3EVisitor%20Info%3C/strong%3E%3C/h2%3E%3Cp%3EIs%20this%20your%20first%20time%20in%20Red%20Deer%20and%20Central%20Alberta?%20Visit%20these%20sites%20before%20you%20visit%20us!%3C/p%3E%3Cp%3E%3Ca%20href=%22http://alberta.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EAbout%20Alberta%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.canada.travel/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ETraveling%20in%20Canada%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.tourismreddeer.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20Tourism%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.cic.gc.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EImmigration%20Info%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://visitreddeer.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20Travel%20Info%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.movingtoreddeer.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EMoving%20to%20Red%20Deer%3C/a%3E%3C/p%3E%3Ch2%3E%3Cstrong%3EMuseums%20&amp;%20Galleries%3C/strong%3E%3C/h2%3E%3Cp%3ERed%20Deer%20values%20its%20rich%20and%20diverse%20heritage%20and%20culture.%20There%20are%20several%20great%20museums%20and%20galleries%20within%20the%20city.%3C/p%3E%3Cp%3E%3Ca%20href=%22http://www.reddeermuseum.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20Musuem%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.sunnybrookfarmmuseum.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ESunnybrook%20Farm%20Museum%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://waskasooenvironmental.homestead.com/Historic-Fort-Normandeau.html%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EFort%20Normandeau%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/City+Government/City+Services+and+Departments/Heritage/Heritage+Sites/Heritage+Buildings+and+Sites.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EHeritage%20Buildings%20&amp;%20Sites%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/City+Government/City+Services+and+Departments/Recreation+Parks+and+Culture/Culture+Services/Galleries/Corridor+Community+Gallery.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECorridor%20Community%20Gallery%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://waskasooenvironmental.homestead.com/Art-Gallery.html%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EMarjorie%20Wood%20Gallery%3C/a%3E%3C/p%3E%3Ch2%3E%3Cstrong%3EOutdoor%20Parks%20&amp;%20Recreation%3C/strong%3E%3C/h2%3E%3Cp%3EThere%20are%20some%20fantastic%20parks%20and%20recreational%20facilities%20in%20Red%20Deer,%20including%20the%20popular%20Heritage%20Ranch,%20Canyon%20Ski%20Resort,%20and%20the%20Kerry%20Wood%20Nature%20Centre%20in%20Waskasoo%20Park.%3C/p%3E%3Cp%3E%3Ca%20href=%22http://www.waskasoopark.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EWaskasoo%20Park%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.heritageranch.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EHeritage%20Ranch%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/City+Government/City+Services+and+Departments/Recreation+Parks+and+Culture/Recreation/Collicutt+Centre/default.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECollicutt%20Centre%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/recreation-and-culture/parks-and-outdoors/parks-and-trails/trail-map/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ETrail%20System%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://waskasooenvironmental.homestead.com/Kerry-Wood-Nature-Center.html%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EKerry%20Wood%20Nature%20Centre%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.canyonski.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECanyon%20Ski%20Resort%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/city-government/budget-and-annual-financial-reports/2016-budget-and-annual-financial-reports/2016-capital-budget/river-bend-recreation-area/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERiver%20Bend%20Recreation%20Area%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/recreation-and-culture/parks-and-outdoors/parks-and-trails/cross-country-ski-trails/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ESki%20Hills%20&amp;%20Trails%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/City+Government/City+Services+and+Departments/Recreation+Parks+and+Culture/Recreation/Recreation+Centre/Rotary+Recreation+Park.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERotary%20Recreation%20Park%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/City+Government/City+Services+and+Departments/Recreation+Parks+and+Culture/Parks/Parks+Trails+and+Picnic+Shelters/Parks/Lions+Campground.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ELions%20Campground%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/Residents/Entertainment+and+Recreation/Recreation+and+Sports/Michener+Aquatic+Centre.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EMichener%20Aquatic%20Centre%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeer.ca/Residents/Community+Services+Guide.htm%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECommunity%20Services%20Guide%3C/a%3E%3C/p%3E%3Ch2%3E%3Cstrong%3EEntertainment%3C/strong%3E%3C/h2%3E%3Cp%3EHere%20are%20just%20a%20few%20ways%20and%20places%20you%20can%20enjoy%20great%20shows,%20sports%20and%20events%20in%20Red%20Deer.%3C/p%3E%3Cp%3E%3Ca%20href=%22http://www.reddeerrebels.com/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ERed%20Deer%20Rebels%20Hockey%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.ticketmaster.ca/Enmax-Centrium-tickets-Red-Deer/venue/139380%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EEnmax%20Centrium%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.westernerpark.ca/events/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EWesterner%20Park%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.centralalbertatheatre.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECentral%20Alberta%20Theatre%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22https://www.carnivalcinemas.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECarnival%20Cinemas%3C/a%3E%3C/p%3E%3Cp%3E%3Cbr%3E%3C/p%3E%3Ch2%3E%3Cstrong%3EFestivals%20&amp;%20Events%3C/strong%3E%3C/h2%3E%3Cp%3EHere%20are%20some%20of%20our%20favourite%20annual%20festivals%20and%20events%20in%20Red%20Deer,%20but%20there%20are%20lots%20more!%3C/p%3E%3Cp%3E%3Ca%20href=%22http://www.westernerdays.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EWesterner%20Days%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.centralalbertachildrensfestival.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EChildrens'%20Festival%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeerfestivaloftrees.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EFestival%20of%20Trees%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.centrefest.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3EStreet%20Performers%20Festival%3C/a%3E%20%20%20%20%20%20%20%20%3Ca%20href=%22http://www.reddeerevents.ca/%22%20target=%22_blank%22%20style=%22color:%20rgb(255,%20255,%20255);%22%3ECommunity%20Events%20Guide%3C/a%3E%3C/p%3E",
+          "display": "block",
+          "className": ""
+        },
+        "textWidth": 80,
+        "title": {
+          "html": "%3Ch3%3E%3Cspan%20style=%22color:%20rgb(216,%2055,%2051);%22%3ELearn%20More%20About%20Red%20Deer%3C/span%3E%3C/h3%3E",
+          "size": 1
+        },
+        "buttonList": [
+          {
+            "text": "Looking to Buy or Sell in Red Deer?",
+            "type": "primary",
+            "action": "link",
+            "icon": "",
+            "href": "/contact-us",
+            "linkOut": false
+          }
+        ],
+        "migrations": {
+          "0": true
+        }
+      }
+    }
+  ]
+}

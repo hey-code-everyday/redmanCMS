@@ -1,0 +1,56 @@
+/*****Please add the following CSS to the site:*****/
+
+.hero-basic .strap-content.content{
+text-shadow: 0 0 20px black; }
+
+.short-hero .strap-container.pad-medium {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.hide-title .strap-header.content {
+display: none}
+
+.checkbox{
+    padding-right: 24px;
+}
+/****NOTE THE FOLLOWING URLS USED IN THE STOCK PAGES
+
+/contact-agent
+/about-agent
+
+You can go in and change that to be more personalized, but remember to change it on any links within the stock pages as well. 
+ HAPPY PAGE BUILDING */
+ 
+ 
+ /* ********************* TEMPORARY LOCAL INFO PAGE WORKAROUND *** */
+ /*
+  ADD THE FOLLOWING CLASS TO A STRAP: strap-local-info
+  THE LINKS SHOULD BE A LIST FOR THIS TO WORK.
+ */
+.strap-local-info ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none outside !important;
+  margin: 0;
+  padding: 0;
+}
+.strap-local-info li {
+  list-style: none outside !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+.strap-local-info li::before {
+  display: none !important;
+}
+@media screen and (min-width: 600px) {
+  .strap-local-info li {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .strap-local-info li {
+    width: 25%;
+  }
+}
